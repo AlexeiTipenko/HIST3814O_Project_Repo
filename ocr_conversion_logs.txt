@@ -1,0 +1,79 @@
+    1  history
+    2  Dropbox
+    3  ls
+    4  cd Year3
+    5  cd DIGH3814O
+    6  ls
+    7  cd Module4Repo
+    8  ls
+    9  cd ..
+   10  mkdir FinalProject
+   11  git init
+   12  nano README.md
+   13  git status
+   14  showHidden
+   15  showFiles
+   16  hideFiles
+   17  showFiles
+   18  ls
+   19  cd ..
+   20  cd DIGH3814O
+   21  ls
+   22  cd FinalProject
+   23  git init
+   24  cd ..
+   25  ls
+   26  mv README.md /FinalProject
+   27  sudo mv README.md /FinalProject
+   28  ls
+   29  cd FinalProject
+   30  ls
+   31  hideFiles
+   32  nano README.md
+   33  ls
+   34  git status
+   35  git remote add origin https://github.com/AlexeiTipenko/HIST3814O_Project_Repo.git
+   36  git push origin master
+   37  git status
+   38  git add .
+   39  git commit -m "Initialized repo and added README.md"
+   40  git push origin master
+   41  ls
+   42  mkdir war_diaries
+   43  cd war_diaries
+   44  nano urls.py
+   45  python urls.py
+   46  ls
+   47  nano urls.txt
+   48  wget -i urls.txt -r --no-parent -nd -w 2 --limit-rate=100k
+   49  ls
+   50  cd ..
+   51  ls
+   52  mkdir war_diaries_ocr
+   53  cd war_diaries_ocr
+   54  ls
+   55  sudo apt-get install tesseract-ocr
+   56  brew install tesseract
+   57  brew install imagemagick
+   58  convert -density 300 ~/war-diaries/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+   59  ls
+   60  cd ..
+   61  ls
+   62  convert -density 300 ~/war-diaries/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+   63  convert -density 300 ~/Dropbox/Year3/DIGH3814O/FinalProject/war-diaries/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+   64  ls
+   65  pwd
+   66  convert -density 300 /Users/alexeitipenko/Dropbox/Year3/DIGH3814O/FinalProject/war-diaries/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+   67  convert -density 300 /Users/alexeitipenko/Dropbox/Year3/DIGH3814O/FinalProject/war_diaries/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+   68  tesseract e001518087.tiff output.txt
+   69  ls
+   70  cd war_diaries
+   71  pwd
+   72  ls
+   73  cd ..
+   74  ls
+   75  git status
+   76  git add .
+   77  git commit -m "Created OCR-processed text files"
+   78  git push origin master
+   79  history
