@@ -1,0 +1,69 @@
+    1  cd D
+    2  ls
+    3  Dropbox
+    4  ls
+    5  cd Year3
+    6  ls
+    7  cd DIGH3814O
+    8  ls
+    9  cd FinalProject
+   10  ls
+   11  cd all_transcribed_diaries
+   12  ls
+   13  cat * > merged-file
+   14  ls
+   15  cd ..
+   16  ls
+   17  git status
+   18  git add .
+   19  git commit -m "Merged all text files into one"
+   20  git push origin master
+   21  ls
+   22  git status
+   23  git add .
+   24  git commit -m "Added trimmed down version of merge_inital"
+   25  git push origin master
+   26  ls
+   27  git status
+   28  git add .
+   29  git commit -m "Added volume_pages.txt"
+   30  git push origin master
+   31  ls
+   32  git status
+   33  git add .
+   34  git commit -m "Added main content and outlier txt files"
+   35  git push
+   36  git push upstream master
+   37  git push origin master
+   38  ls
+   39  git status
+   40  git add .
+   41  git commit -m "Split main document into hospital 10 and 14"
+   42  git push origin master
+   43  git status
+   44  git add .
+   45  git commit -m "First cleaning done to 14_main, added hostpital count file"
+   46  git push origin master
+   47  git status
+   48  ls
+   49  git status
+   50  git add .
+   51  git commit -m "Finished majority of cleaning with the help of regex"
+   52  git push origin master
+   53  cp 14_main 14_main_csv.csv
+   54  ls
+   55  cd cleaning
+   56  ls
+   57  cp 14_main 14_main_csv.csv
+   58  git status
+   59  git add .
+   60  git commit -m "All formatting issues cleared, main csv file for hospital 14 complete"
+   61  git push origin master
+   62  git status
+   63  git add .
+   64  git commit -m "Some cleaning done with open refine and trifacta"
+   65  git push origin master
+   66  history
+   67  ls
+   68  cd ..
+   69  ls
