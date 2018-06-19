@@ -1,0 +1,4 @@
+site_name: HIST3814O Final Project
+pages:
+    - Home: index.md
+theme: readthedocs
