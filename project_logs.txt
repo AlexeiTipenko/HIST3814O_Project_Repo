@@ -1,0 +1,371 @@
+    1  ls
+    2  cd Dropbox
+    3  ls
+    4  cd Year
+    5  cd Year3
+    6  ls
+    7  cd DIGH3814O
+    8  ls
+    9  cd FinalProject
+   10  ls
+   11  cd R_Analysis
+   12  ls
+   13  cd FinalProject_R
+   14  cd ..
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd ..
+   19  ls
+   20  Dropbox
+   21  cd Year3
+   22  ls
+   23  cd DIGH3814O
+   24  ls
+   25  cd D
+   26  cd FinalProject
+   27  ls
+   28  cd R_Analysis_Project
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd cleaning
+   33  ls
+   34  pwd
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd R_Analysis_Project
+   39  ls
+   40  cd mallet-2.0.8
+   41  bin/mallet import-dir --input sample-data/web/* --output web.mallet
+   42  bin/mallet import-dir --input sample-data/web/* --output web.malletls
+   43  ls
+   44  bin/mallet import-dir --input sample-data/web/* --output web.mallet
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  ls
+   50  git status
+   51  cd R_Analysis_Project
+   52  ls
+   53  git status
+   54  git add .
+   55  git commit -m "Renamed several files, added some visualizations"
+   56  git status
+   57  git add .
+   58  git commit -m "Renamed several files, added some visualizations"
+   59  git push origin master
+   60  git status
+   61  git add .
+   62  git status
+   63  git add --all
+   64  git status
+   65  git commit -m "Renamed several files and added csv of names"
+   66  git push origin master
+   67  git status
+   68  git add .
+   69  git commit -m "Added 2 more image files"
+   70  git status
+   71  git add .
+   72  git commit -m "Added 2 more image files"
+   73  git add --all
+   74  git status
+   75  git commit -m "Added 2 new image files"
+   76  git push origin master
+   77  git pull
+   78  git pull origin master
+   79  git pull origin gh_pages
+   80  pwd
+   81  cd ..
+   82  ls
+   83  pwd
+   84  git checkout -b gh-pages
+   85  git status
+   86  ls
+   87  nano myfontchoice.html
+   88  git status
+   89  git add .
+   90  git commit -m "Added html file for website"
+   91  git push -u origin gh-pages
+   92  nano myfontchoice.html
+   93  git status
+   94  git add .
+   95  git commit -m "Changed font"
+   96  git push origin gh-pages
+   97  nano myfontchoice.html
+   98  git status
+   99  git add .
+  100  git commit -m "Changed fonts once again"
+  101  git push origin gh-pages
+  102  nano myfontchoice.html
+  103  sudo pip install mkdocs
+  104  ls
+  105  mkdocs --version
+  106  mkdocs new hist3814project
+  107  mkdocs serve
+  108  ls
+  109  mkdocs new project_website
+  110  ls
+  111  cd project_website
+  112  ls
+  113  mkdocs serve
+  114  ls
+  115  nano mkdocs.yml
+  116  cd ..
+  117  ls
+  118  git status
+  119  git add .
+  120  git status
+  121  git commit -m "Added project_website directory"
+  122  git push origin gh-pages
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd ProjectWebsite
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd FinalProject
+  131  git status
+  132  git add .
+  133  git status
+  134  git commit -m "Removed project_website (will become a new repo)"
+  135  git push origin gh-pages
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd HIST3814ProjectWebsite
+  140  ls
+  141  git init
+  142  git status
+  143  git add .
+  144  git commit -m "First commit, all mkdoc files ready"
+  145  git remote add origin https://github.com/AlexeiTipenko/HIST3814ProjectWebsite.git
+  146  git push -u origin master
+  147  mkdocs gh-deploy
+  148  ls
+  149  cd docs
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd site
+  154  ls
+  155  cd ..
+  156  ls
+  157  nano mkdocs.yml
+  158  git status
+  159  ls
+  160  cd docs
+  161  ls
+  162  nano understanding.md
+  163  ls
+  164  nano cleaning.md
+  165  nano analysis.md
+  166  ls
+  167  cd ..
+  168  ls
+  169  nano mkdocs.yml
+  170  cd docs
+  171  ls
+  172  nano conclusion.md
+  173  ls
+  174  cd ..
+  175  ls
+  176  git status
+  177  git add .
+  178  git status
+  179  git commit -m "Modified .yml file and added all page files for website"
+  180  git push origin master
+  181  ls
+  182  mkdocs serve
+  183  ls
+  184  cd docs
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd m
+  189  nano mkdocs.yml
+  190  ls
+  191  cd docs
+  192  ls
+  193  mkdocs serve
+  194  ls
+  195  cd ..
+  196  ls
+  197  mkdocs serve
+  198  git status
+  199  git add .
+  200  git commit -m "minor change"
+  201  git push origin master
+  202  ls
+  203  nano mkdocs.yml
+  204  git status
+  205  git add .
+  206  git commit -m "minor change"
+  207  git push origin master
+  208  mkdocs serve
+  209  nano mkdocs.yml
+  210  git status
+  211  git add .
+  212  git commit -m "minor change"
+  213  git push origin master
+  214  mkdocs gh-deploy
+  215  git status
+  216  git add .
+  217  git commit -m "Added new page files, etc"
+  218  git push origin master
+  219  git status
+  220  mkdocs gh-deploy
+  221  git status
+  222  git add .
+  223  git commit - "Finished introduction page"
+  224  git commit -m "Finished introduction page"
+  225  git push origin master
+  226  git status
+  227  git add .
+  228  mkdocs gh-deploy
+  229  git status
+  230  git add .
+  231  git commit -m "Finished understanding.md page"
+  232  git push origin master
+  233  git status
+  234  mkdocs gh-deploy
+  235  git add .
+  236  git status
+  237  git commit -m "Finished cleaning.md page"
+  238  git push origin master
+  239  cd ..
+  240  ls
+  241  cd FinalProject
+  242  ls
+  243  git checkout master
+  244  git status
+  245  git add .
+  246  git status
+  247  git commit -m "Added documented event date visualizations"
+  248  ls
+  249  git status
+  250  git branch
+  251  ls
+  252  cd visualizations
+  253  ls
+  254  git status
+  255  git add --all
+  256  git status
+  257  git add .
+  258  git status
+  259  git add --all
+  260  git status
+  261  git commit -m "fixing commit erros"
+  262  git push origin master
+  263  git status
+  264  git add .
+  265  git commit -m "Added documented event date visualizations"
+  266  git push origin master
+  267  git status
+  268  ls
+  269  cd ..
+  270  ls
+  271  cd ..
+  272  ls
+  273  cd HIST3814ProjectWebsite
+  274  ls
+  275  mkdocs gh-deploy
+  276  git add .
+  277  git status
+  278  git commit -m "Started visualization (testing pngs)"
+  279  git push origin master
+  280  mkdocs gh-deploy
+  281  git add .
+  282  git commit -m "Started visualization (testing pngs)"
+  283  git push origin master
+  284  cd ..
+  285  ls
+  286  cd FinalProject
+  287  ls
+  288  git status
+  289  git add .
+  290  git commit -m "New date png files"
+  291  git push origin master
+  292  cd ..
+  293  cd HIST3814ProjectWebsite
+  294  git status
+  295  mkdocs gh-deploy
+  296  git add .
+  297  git commit -m "modified pngs for dates"
+  298  git push origin master
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd FinalProject
+  303  ls
+  304  git status
+  305  git add .
+  306  git commit -m "added word_trends.png"
+  307  git push origin master
+  308  git status
+  309  git add .
+  310  git commit -m "fixing comit issue'\n
+  311  git commit -m "fixing comit issue"\n
+  312  git push origin master
+  313  git status
+  314  git add .
+  315  git status
+  316  git commit -m "added word_trends.png"
+  317  git push origin master
+  318  cd ..
+  319  ls
+  320  cd HIST3814ProjectWebsite
+  321  ls
+  322  mkdocs gh-deploy
+  323  git add .
+  324  git commit -m "Finished analysis.md page"
+  325  git push origin master
+  326  mkdocs gh-deploy
+  327  sit status
+  328  git add .
+  329  git commit -m "Minor changes"
+  330  git push origin master
+  331  cd ..
+  332  ls
+  333  cd FinalProject
+  334  ls
+  335  cd status
+  336  git status
+  337  git add .
+  338  git commit -m "Added tesseract example png"
+  339  git push origin master
+  340  cd ..
+  341  ls
+  342  cd HIST3814ProjectWebsite
+  343  ls
+  344  mkdocs gh-deploy
+  345  git add .
+  346  git commit -m "minor changes"
+  347  git push origin master
+  348  mkdocs gh-deploy
+  349  git add .
+  350  git commit -m "minor changes"
+  351  git push origin master
+  352  mkdocs gh-deploy
+  353  git add .
+  354  git commit -m "minor changes"
+  355  git push origin master
+  356  git status
+  357  mkdocs gh-deploy
+  358  git commit -m "Added course reflection"
+  359  git add .
+  360  git commit -m "Added course reflection"
+  361  git push origin master
+  362  mkdocs gh-deploy
+  363  git add .
+  364  git commit -m "Added course reflection"
+  365  git push origin master
+  366  cd ..
+  367  ls
+  368  cd FinalProject
+  369  ls
+  370  history
+  371  ls
