@@ -16,7 +16,7 @@ library("scales")
 library("lubridate")
 
 
-document <- read.csv("/Users/alexeitipenko/Dropbox/Year3/DIGH3814O/FinalProject/cleaning/14_Main_Cleaned.csv",
+document <- read.csv("/Users/alexeitipenko/Dropbox/Year3/DIGH3814O/FinalProject/cleaning/14_Main_Cleaned_All.csv",
                       col.names=c("Documented_Date", "Event", "Event_Date"),
                       sep=",", quote="",
                       row.names = NULL)
@@ -41,3 +41,22 @@ p
 
 dates <- table(documents$Event_Date)
 barplot(dates, main="Event Date Distribution", xlab="Dates", ylab="Frequency")
+
+
+
+documented_dates <- dmy(document$Documented_Date) # ymd stands for year, month, date
+documented_dates
+class(documented_dates)
+
+bin <- 60 # used for aggregating the data and aligning the labels
+
+doc_dates_frame <- data.frame(documented_dates)
+
+p <- ggplot(doc_dates_frame, aes(x=documented_dates), inherit.aes = FALSE)
+p <- p + geom_histogram(binwidth = bin, colour="white")
+
+#p <- p + scale_x_date(labels = date_format("%Y-%b"))
+
+# from here, format at ease
+p <- p + theme_bw() + xlab(NULL)
+p
